@@ -1,1 +1,130 @@
- 
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #bdae82;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* HEADER 
+================================ */
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.nav__link {
+    margin-left: 50px;
+    transition: linear 0.1s color;
+}
+
+.nav__link:hover {
+    color: #bdae82;
+}
+
+.nav__link:first-child {
+    margin: 0;
+}
+
+.nav__lgs {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+/* Button
+================================ */
+
+.btn {
+    padding: 7px 72px;
+    border: 1px solid #bdae82;
+    border-radius: 2px;
+
+    color: #BDAE82;
+    line-height: 2;
+
+    display: inline-block;
+    vertical-align: top;
+
+    transition: linear 0.1s color;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn--gold {
+background-color: #BDAE82;
+color: #000;
+}
+
+/* INTRO
+================================ */
+
+.intro {
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 910px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro__inner {
+    padding-left: 80px;
+}
+
+.intro__name {
+    color: #fff;
+    line-height: 2;
+}
+
+.intro__description {
+    width: 470px;
+    line-height: 2;
+    margin-bottom: 25px;
+}
