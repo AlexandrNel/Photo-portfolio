@@ -105,7 +105,7 @@ p {
     display: inline-block;
     vertical-align: top;
 
-    transition: linear 0.1s color;
+    transition: linear 0.1s all;
 }
 
 .btn:hover {
@@ -115,6 +115,16 @@ p {
 .btn--gold {
 background-color: #BDAE82;
 color: #000;
+}
+
+.btn--hov:hover {
+    background-color: #BDAE82;
+    color: #000;
+}
+
+.enabled {
+    background-color: #BDAE82;
+    color: #000;
 }
 
 /* INTRO
@@ -185,4 +195,26 @@ color: #000;
     font-weight: 400;
     line-height: 2;
     margin-bottom: 20px;
+}
+
+/* PORTFOLIO 
+=========================*/
+
+.portfolio {
+    margin: 100px 0;
+}
+
+.portfolio__btn {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin: 60px 0 20px;
+}
+
+.portfolio__items {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
 }
