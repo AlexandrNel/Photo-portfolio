@@ -55,6 +55,9 @@ p {
     background-color: #000;
 }
 
+.link--enabled {
+    color: #bdae82;
+}
 
 /* Button
 ================================ */
