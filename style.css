@@ -37,6 +37,24 @@ p {
     margin: 0 auto;
 }
 
+.section-title {
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    border-bottom: 2px solid #bdae82;
+}
+
+.span {
+
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #bdae82;
+    padding: 0 25px;
+    background-color: #000;
+}
+
 /* HEADER 
 ================================ */
 
@@ -127,4 +145,44 @@ color: #000;
     width: 470px;
     line-height: 2;
     margin-bottom: 25px;
+}
+
+/* SKILLS 
+============================*/
+
+.skills {
+    margin: 100px 0;
+}
+
+.skills__items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.skills__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 20%;
+}
+
+.skills__description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.skills__icon {
+    margin-bottom: 68px;
+}
+
+
+.skills__name {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2;
+    margin-bottom: 20px;
 }
