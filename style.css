@@ -55,6 +55,49 @@ p {
     background-color: #000;
 }
 
+
+/* Button
+================================ */
+
+.btn {
+    padding: 7px 72px;
+    border: 1px solid #bdae82;
+    border-radius: 2px;
+
+    color: #BDAE82;
+    line-height: 2;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    display: inline-block;
+    vertical-align: top;
+
+    transition: linear 0.1s all;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn--gold {
+background-color: #BDAE82;
+color: #000;
+}
+
+.btn--hov:hover {
+    background-color: #BDAE82;
+    color: #000;
+}
+
+.enabled {
+    background-color: #BDAE82;
+    color: #000;
+}
+
+
 /* HEADER 
 ================================ */
 
@@ -91,41 +134,7 @@ p {
     margin-left: 50px;
 }
 
-/* Button
-================================ */
 
-.btn {
-    padding: 7px 72px;
-    border: 1px solid #bdae82;
-    border-radius: 2px;
-
-    color: #BDAE82;
-    line-height: 2;
-
-    display: inline-block;
-    vertical-align: top;
-
-    transition: linear 0.1s all;
-}
-
-.btn:hover {
-    color: #fff;
-}
-
-.btn--gold {
-background-color: #BDAE82;
-color: #000;
-}
-
-.btn--hov:hover {
-    background-color: #BDAE82;
-    color: #000;
-}
-
-.enabled {
-    background-color: #BDAE82;
-    color: #000;
-}
 
 /* INTRO
 ================================ */
@@ -291,3 +300,63 @@ color: #000;
     line-height: 2;
 }
 
+
+/* CONTACT ME */
+
+.contact {
+    padding: 60px 0;
+    background-color: #535353;
+}
+
+.contact__form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__name {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form input {
+    background-color: transparent;
+    border: 2px solid #bdae82;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 50px;
+
+    color: #bdae82;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+
+    outline: none;
+}
+
+.form textarea {
+    background-color: transparent;
+    border: 2px solid #bdae82;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 100px;
+
+    color: #bdae82;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+
+    resize: none;
+    outline: none;
+}
+
+.form input::placeholder, .form textarea::placeholder {
+    color: #bdae82;
+}
