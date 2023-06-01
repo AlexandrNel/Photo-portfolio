@@ -360,3 +360,22 @@ color: #000;
 .form input::placeholder, .form textarea::placeholder {
     color: #bdae82;
 }
+
+/* FOOTER */
+
+.footer {
+    padding: 60px 0;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    word-spacing: 30px;
+}
+
+.social a{
+    margin-left: 5px;
+}
