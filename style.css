@@ -245,3 +245,49 @@ color: #000;
     transform: translate(-50%, -50%);
     width: 10%;
 }
+
+/* PRICE
+============================ */
+
+.price {
+    margin: 100px 0;
+}
+
+.price__blocks{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.premium, .standart, .gold {
+    min-width: 330px;
+    border: 3px solid #BDAE82;
+    padding: 43px ;
+    
+    text-align: center;
+   
+}
+
+.premium a, .standart a, .gold a {
+    margin-top: 40px;
+}
+
+.price__name {
+    font-size: 28px;
+    color: #fff;
+}
+
+.price__cost {
+    font-size: 24px;
+    color: #BDAE82;
+    margin: 20px 0;
+}
+
+.price__discription {
+    font-size: 18px;
+    line-height: 2;
+}
+
