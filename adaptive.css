@@ -1,0 +1,75 @@
+@media (max-width: 900px) {
+    .container {
+        padding: 0 5px;
+    }
+
+    .intro {
+        height: 600px;
+    }
+
+    .intro__inner {
+        padding-left: 60px;
+    }
+
+    .portfolio__btn {
+        flex-direction: column;
+    }
+
+    .contact__form {
+        justify-content: center;
+    }
+
+    .form {
+        align-items: center;
+    }
+
+    .portfolio__items {
+        justify-content: center;
+        align-items: center;
+        margin: 0 30px ;
+        
+    }
+
+    .portfolio__img {
+        width: 200px;
+    }
+
+   
+}
+
+@media (max-width: 400px)
+{
+    .skills {
+        margin-top: 50px;
+    }
+
+    .intro {
+        height: 500px;
+    }
+
+    .intro__name {
+        line-height: 1;
+        font-size: 40px;
+    }
+
+    .intro__description {
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+    .premium, .standart, .gold {
+       min-width: 150px;
+    
+    }
+    .btn {
+        padding: 3px 40px;
+    }
+
+    .form input, .form textarea {
+        width: 80%;
+    }
+
+    .premium .btn, .standart .btn, .gold .btn{
+        padding: 3px 40px;
+    }
+}
