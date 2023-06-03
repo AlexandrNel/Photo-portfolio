@@ -1,4 +1,15 @@
 @media (max-width: 900px) {
+    .skills__icon {
+        margin: 0;
+    }
+
+    .skills__name {
+        margin: 0;
+    }
+
+    .skills__item {
+        margin-bottom: 50px;
+    }
     .container {
         padding: 0 5px;
     }
