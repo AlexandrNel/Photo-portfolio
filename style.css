@@ -156,7 +156,7 @@ color: #000;
 ================================ */
 
 .header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
