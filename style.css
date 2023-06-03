@@ -186,12 +186,9 @@ color: #000;
 }
 
 .skills__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-   align-items: center;
-   text-align: center;
-   width: 300px;
+  width: 25%;
+  text-align: center;
+  padding: 0 10px;
 }
 
 .skills__description {
@@ -278,19 +275,19 @@ color: #000;
     margin-top: 60px;
     flex-wrap: wrap;
     width: 100%;
-    gap: 20px;
+    gap: 8px;
 }
 
-.premium, .standart, .gold {
-    min-width: 330px;
+.price__item {
+    width: 30%;
     border: 3px solid #BDAE82;
-    padding: 43px ;
+    padding: 10px ;
     
     text-align: center;
    
 }
 
-.premium a, .standart a, .gold a {
+.price__item a{
     margin-top: 40px;
 }
 
