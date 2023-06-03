@@ -2,25 +2,35 @@
     .price__item {
         width: 420px;
     }
+
+    .skills__item {
+        margin-bottom: 50px;
+        width: 50%;
+        padding: 0 45px;
+    }
+
+    .skills__icon {
+        margin-bottom: 30px;
+    }
 }
 
+
 @media (max-width: 900px) {
-    .skills__icon {
-        margin: 0;
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
     }
 
     .skills__name {
         margin: 0;
     }
 
-    .skills__item {
-        margin-bottom: 50px;
-        width: 360px;
-    }
-   
-
     #intro {
-        height: 600px;
+        height: auto;
+        padding: 50px 0;
     }
 
     .intro__inner {
@@ -49,8 +59,19 @@
     .portfolio__img {
         width: 200px;
     }
+}
 
-   
+@media (max-width: 550px)
+{
+    .skills__item {
+        margin-bottom: 50px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .skills__icon {
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 400px)
