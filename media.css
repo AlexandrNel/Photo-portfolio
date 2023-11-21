@@ -50,19 +50,18 @@
     }
 
     .portfolio__items {
-        justify-content: center;
-        align-items: center;
-        margin: 0 30px ;
-        
-    }
-
-    .portfolio__img {
-        width: 200px;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 30px ; 
     }
 }
 
 @media (max-width: 550px)
+
 {
+    .portfolio__items {
+        grid-template-columns:  1fr;
+        margin: 0 30px ; 
+    }
     .skills__item {
         margin-bottom: 50px;
         width: 100%;
