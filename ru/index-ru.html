@@ -1,254 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="../media.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Фотограф</title>
-  </head>
-  <body>
-    <!-- HEADER
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../media.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap"
+    rel="stylesheet" />
+  <title>Фотограф</title>
+</head>
+
+<body>
+  <!-- HEADER
     ====================== -->
 
-    <header id="header">
-      <div class="container">
-        <div class="header__menu">
-          <div class="header__logo">
-            <a href="#intro"
-              ><img src="../images/unvisited/logo_unvisited.svg" alt=""
-            /></a>
-          </div>
-          <nav class="nav">
-            <a href="#skills" class="nav__link">Навыки</a>
-            <a href="#portfolio" class="nav__link">Портфолио</a>
-            <a href="#video" class="nav__link">Видео</a>
-            <a href="#price" class="nav__link">Цены</a>
-            <a href="#contact" class="nav__link">Контакты</a>
-            <div class="nav__lgs">
-              <a href="../index.html" class="nav__links">анг</a>
-              /
-              <a href="index-ru.html" class="nav__links link--enabled">рус</a>
-            </div>
-          </nav>
-
-          <!-- Burger
-                    ======================== -->
-          <button class="burger" type="button">
-            <span class="burger__item">Menu</span>
-          </button>
+  <header id="header">
+    <div class="container">
+      <div class="header__menu">
+        <div class="header__logo">
+          <a href="#intro"><img src="../images/unvisited/logo_unvisited.svg" alt="" /></a>
         </div>
-      </div>
-    </header>
+        <nav class="nav">
+          <a href="#skills" class="nav__link">Навыки</a>
+          <a href="#portfolio" class="nav__link">Портфолио</a>
+          <a href="#video" class="nav__link">Видео</a>
+          <a href="#price" class="nav__link">Цены</a>
+          <a href="#contact" class="nav__link">Контакты</a>
+          <div class="nav__lgs">
+            <a href="../index.html" class="nav__links">анг</a>
+            /
+            <a href="index-ru.html" class="nav__links link--enabled">рус</a>
+          </div>
+        </nav>
 
-    <!-- INTRO
+        <!-- Burger
+                    ======================== -->
+        <button class="burger" type="button">
+          <span class="burger__item">Menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- INTRO
         ==================== -->
 
-    <div id="intro">
-      <div class="container">
-        <div class="intro__inner">
-          <h1 class="intro__name">Aлекса Райс</h1>
-          <p class="intro__description">
-            Сохраните искренние эмоции, романтические чувства и счастливые моменты жизни вместе с профессиональным фотографом Алексой Райз
-          </p>
-          <a href="" class="btn btn--gold">Нанять меня</a>
-        </div>
+  <div id="intro">
+    <div class="container">
+      <div class="intro__inner">
+        <h1 class="intro__name">Aлекса Райс</h1>
+        <p class="intro__description">
+          Сохраните искренние эмоции, романтические чувства и счастливые моменты жизни вместе с профессиональным
+          фотографом Алексой Райз
+        </p>
+        <a href="" class="btn btn--gold">Нанять меня</a>
       </div>
     </div>
+  </div>
 
-    <!-- SKILLS
+  <!-- SKILLS
     ======================== -->
 
-    <div id="skills">
-      <div class="container">
-        <div class="section-title">
-          <span class="span">Навыки</span>
+  <div id="skills">
+    <div class="container">
+      <div class="section-title">
+        <span class="span">Навыки</span>
+      </div>
+      <div class="skills__items">
+        <div class="skills__item">
+          <img class="skills__icon" src="../images/skills/camera1.svg" alt="" />
+          <p class="skills__name">Цифровое фотографирование</p>
+          <p class="skills__description">
+            Высококачественные фотографии в студии и на природе
+          </p>
         </div>
-        <div class="skills__items">
-          <div class="skills__item">
-            <img class="skills__icon" src="../images/skills/camera1.svg" alt="" />
-            <p class="skills__name">Цифровое фотографирование</p>
-            <p class="skills__description">
-                Высококачественные фотографии в студии и на природе
-            </p>
-          </div>
-          <div class="skills__item">
-            <img class="skills__icon" src="../images/skills/video1.svg" alt="" />
-            <p class="skills__name">Видеосъемка</p>
-            <p class="skills__description">
-                Запечатлевайте моменты, чтобы они всегда оставались с вами
-            </p>
-          </div>
-          <div class="skills__item">
-            <img class="skills__icon" src="../images/skills/image1.svg" alt="" />
-            <p class="skills__name">Ретушь</p>
-            <p class="skills__description">
-                Я стремлюсь к тому, чтобы фотография превосходила реальность
-            </p>
-          </div>
-          <div class="skills__item">
-            <img class="skills__icon" src="../images/skills/mic1.svg" alt="" />
-            <p class="skills__name">Аудио</p>
-            <p class="skills__description">
-                Профессиональная запись звуков для видео, рекламы, портфолио
-            </p>
-          </div>
+        <div class="skills__item">
+          <img class="skills__icon" src="../images/skills/video1.svg" alt="" />
+          <p class="skills__name">Видеосъемка</p>
+          <p class="skills__description">
+            Запечатлевайте моменты, чтобы они всегда оставались с вами
+          </p>
+        </div>
+        <div class="skills__item">
+          <img class="skills__icon" src="../images/skills/image1.svg" alt="" />
+          <p class="skills__name">Ретушь</p>
+          <p class="skills__description">
+            Я стремлюсь к тому, чтобы фотография превосходила реальность
+          </p>
+        </div>
+        <div class="skills__item">
+          <img class="skills__icon" src="../images/skills/mic1.svg" alt="" />
+          <p class="skills__name">Аудио</p>
+          <p class="skills__description">
+            Профессиональная запись звуков для видео, рекламы, портфолио
+          </p>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- PORTFOLIO
+  <!-- PORTFOLIO
     ========================= -->
 
-    <div id="portfolio">
-      <div class="container">
-        <div class="section-title">
-          <span class="span">Портфолио</span>
-        </div>
-        <div class="portfolio__btn">
-          <a href="" class="btn btn--hov">Зима</a>
-          <a href="" class="btn btn--hov">Весна</a>
-          <a href="" class="btn btn--hov">Лето</a>
-          <a href="" class="btn btn--hov enabled">Осень</a>
-        </div>
-        <div class="portfolio__items">
-          <img
-            class="portfolio__img"
-            src="../images/portfolio/portfolio-img.jpg"
-            alt=""
-          />
-          <img
-            class="portfolio__img"
-            src="../images/portfolio/portfolio-img (1).jpg"
-            alt=""
-          />
-          <img
-            class="portfolio__img"
-            src="../images/portfolio/portfolio-img (2).jpg"
-            alt=""
-          />
-          <img
-            class="portfolio__img"
-            src="../images/portfolio/portfolio-img (3).jpg"
-            alt=""
-          />
-          <img
-            class="portfolio__img"
-            src="../images/portfolio/portfolio-img (4).jpg"
-            alt=""
-          />
-          <img
-            class="portfolio__img"
-            src="../images/portfolio/portfolio-img (5).jpg"
-            alt=""
-          />
-        </div>
+  <div id="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <span class="span">Портфолио</span>
+      </div>
+      <div class="portfolio__btn">
+        <a href="" class="btn btn--hov">Зима</a>
+        <a href="" class="btn btn--hov">Весна</a>
+        <a href="" class="btn btn--hov">Лето</a>
+        <a href="" class="btn btn--hov enabled">Осень</a>
+      </div>
+      <div class="portfolio__items">
+        <img class="portfolio__img" src="../images/portfolio/portfolio-img.jpg" alt="" />
+        <img class="portfolio__img" src="../images/portfolio/portfolio-img (1).jpg" alt="" />
+        <img class="portfolio__img" src="../images/portfolio/portfolio-img (2).jpg" alt="" />
+        <img class="portfolio__img" src="../images/portfolio/portfolio-img (3).jpg" alt="" />
+        <img class="portfolio__img" src="../images/portfolio/portfolio-img (4).jpg" alt="" />
+        <img class="portfolio__img" src="../images/portfolio/portfolio-img (5).jpg" alt="" />
       </div>
     </div>
+  </div>
 
-    <!-- VIDEO 
+  <!-- VIDEO 
     =========================-->
-    <div id="video">
-      <div class="container">
-        <div class="section-title">
-          <span class="span">Видео</span>
-        </div>
-        <div class="video__player">
-          <img class="play" src="../images/unvisited/Play_Unvisited.svg" alt="" />
-          <img class="video__img" src="../images/video/video-player.jpg" alt="" />
-          <!-- <video src=""></video> -->
-        </div>
+  <div id="video">
+    <div class="container">
+      <div class="section-title">
+        <span class="span">Видео</span>
+      </div>
+      <div class="video__player">
+        <img class="play" src="../images/unvisited/Play_Unvisited.svg" alt="" />
+        <img class="video__img" src="../images/video/video-player.jpg" alt="" />
+        <!-- <video src=""></video> -->
       </div>
     </div>
+  </div>
 
-    <!-- PRICE
+  <!-- PRICE
     ========================== -->
 
-    <div id="price">
-      <div class="container">
-        <div class="section-title">
-          <span class="span">Цены</span>
+  <div id="price">
+    <div class="container">
+      <div class="section-title">
+        <span class="span">Цены</span>
+      </div>
+      <div class="price__blocks">
+        <div class="price__item">
+          <h6 class="price__name">Стендарт</h6>
+          <h6 class="price__cost">500 $</h6>
+          <p class="price__discription">Одно место</p>
+          <p class="price__discription">120 цветных фотографий</p>
+          <p class="price__discription">12 фотографий в ретуши</p>
+          <p class="price__discription">Готовность 2-3 недели</p>
+          <p class="price__discription">Макияж, визаж</p>
+          <a href="" class="btn btn--gold">Заказная съемка</a>
         </div>
-        <div class="price__blocks">
-          <div class="price__item">
-            <h6 class="price__name">Стендарт</h6>
-            <h6 class="price__cost">500 $</h6>
-            <p class="price__discription">Одно место</p>
-            <p class="price__discription">120 цветных фотографий</p>
-            <p class="price__discription">12 фотографий в ретуши</p>
-            <p class="price__discription">Готовность 2-3 недели</p>
-            <p class="price__discription">Макияж, визаж</p>
-            <a href="" class="btn btn--gold">Заказная съемка</a>
-          </div>
-          <div class="price__item">
-            <h6 class="price__name">Премиум</h6>
-            <h6 class="price__cost">700 $</h6>
-            <p class="price__discription">Одно или два места</p>
-            <p class="price__discription">200 цветных фотографий</p>
-            <p class="price__discription">20 фотографий в ретуши</p>
-            <p class="price__discription">Готовность 1-2 недели</p>
-            <p class="price__discription">Макияж, визаж</p>
-            <a href="" class="btn btn--gold">Заказная съемка</a>
-          </div>
-          <div class="price__item">
-            <h6 class="price__name">Золотой</h6>
-            <h6 class="price__cost">1000 $</h6>
-            <p class="price__discription">Расположение деревьев или более</p>
-            <p class="price__discription">300 цветных фотографий</p>
-            <p class="price__discription">50 фотографий в ретуши</p>
-            <p class="price__discription">Готовность 1 неделя</p>
-            <p class="price__discription">Макияж, визаж, прическа</p>
-            <a href="" class="btn btn--gold">Заказная съемка</a>
-          </div>
+        <div class="price__item">
+          <h6 class="price__name">Премиум</h6>
+          <h6 class="price__cost">700 $</h6>
+          <p class="price__discription">Одно или два места</p>
+          <p class="price__discription">200 цветных фотографий</p>
+          <p class="price__discription">20 фотографий в ретуши</p>
+          <p class="price__discription">Готовность 1-2 недели</p>
+          <p class="price__discription">Макияж, визаж</p>
+          <a href="" class="btn btn--gold">Заказная съемка</a>
+        </div>
+        <div class="price__item">
+          <h6 class="price__name">Золотой</h6>
+          <h6 class="price__cost">1000 $</h6>
+          <p class="price__discription">Расположение деревьев или более</p>
+          <p class="price__discription">300 цветных фотографий</p>
+          <p class="price__discription">50 фотографий в ретуши</p>
+          <p class="price__discription">Готовность 1 неделя</p>
+          <p class="price__discription">Макияж, визаж, прическа</p>
+          <a href="" class="btn btn--gold">Заказная съемка</a>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- CONTACT ME -->
+  <!-- CONTACT ME -->
 
-    <div id="contact">
-      <div class="container">
-        <div class="contact__form">
-          <form action="" method="post">
-            <div class="form">
-              <h2 class="form__name">Связь со мной</h2>
-              <input type="email" placeholder="Эл.почта" />
-              <input type="tel" name="" id="" placeholder="Телефон" />
-              <textarea
-                name=""
-                id=""
-                cols="30"
-                rows="10"
-                placeholder="Сообщение"
-              ></textarea>
-              <button class="btn btn--gold" type="submit">Отправить сообщение</button>
-            </div>
-          </form>
+  <div id="contact">
+    <div class="container">
+      <div class="contact__form">
+        <form action="" method="post">
+          <div class="form">
+            <h2 class="form__name">Связь со мной</h2>
+            <input type="email" placeholder="Эл.почта" />
+            <input type="tel" name="" id="" placeholder="Телефон" />
+            <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+            <button class="btn btn--gold" type="submit">Отправить сообщение</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <p class="copy">© 2023 <a href="https://github.com/">GitHub</a></p>
+        <div class="social">
+          <a href=""><img src="../images/unvisited/fb 1.svg" /></a>
+          <a href=""><img src="../images/unvisited/inst 1.svg" /></a>
+          <a href=""><img src="../images/unvisited/pinterest 1.svg" /></a>
+          <a href=""><img src="../images/unvisited/tw 1.svg" /></a>
         </div>
       </div>
     </div>
+  </footer>
+</body>
 
-    <!-- FOOTER -->
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__inner">
-          <p class="copy">© 2023 <a href="https://github.com/">GitHub</a></p>
-          <div class="social">
-            <a href=""><img src="../images/unvisited/fb 1.svg" /></a>
-            <a href=""><img src="../images/unvisited/inst 1.svg" /></a>
-            <a href=""><img src="../images/unvisited/pinterest 1.svg" /></a>
-            <a href=""><img src="../images/unvisited/tw 1.svg" /></a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
